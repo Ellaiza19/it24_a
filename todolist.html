@@ -6,6 +6,25 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <h1> To do list</h1>
+    <input type="text"
+            id="taskInput"
+            placeholder="Add a task"
+    />
+    <button onclick="addTask()">Add</button>
+
+<script>
+
+    function addTask(){
+         var taskInput = document.getElementById('taskInput');
+
+         console.log(taskInput.value);
+
+
+    }
+
+
+
+</script>
 </body>
 </html>
